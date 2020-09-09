@@ -1,0 +1,26 @@
+{
+  "name": "package_manager",
+  "version": "1.0.0",
+  "description": "Demostracion de npm para la clase de WP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha",
+    "dev": "supervisor app.js",
+    "lint": "./node_modules/.bin/eslint app.js"
+  },
+  "keywords": [
+    "demo",
+    "uach",
+    "fing"
+  ],
+  "author": "Alejandro Aguirre",
+  "license": "ISC",
+  "dependencies": {
+    "log4js": "^6.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "mocha": "^8.1.3"
+  }
+}
